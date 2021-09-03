@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     width: 100vw;
     height: 100vh;
     font-family: 'Segoe UI';
 }
 
-header {
+.header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: end;
