@@ -7,6 +7,112 @@
     outline: none;
 }
 
+/* estilização do h2 */
+
+h2{
+    display: flex;
+    color: #ff914d;
+    margin-top: 67px;
+    margin-left: 41px;
+    flex-wrap: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* estilização da imagem do homem apontando */
+
+img{
+    background-color: #e7a709;
+    margin-left: 0px;
+
+}   
+   
+/* estilização do plano de fundo */
+
+.inicio{
+    background-color: #f5c44e;
+    height: 417px;
+}
+
+
+
+/* estilização do bloco de cadasto */
+
+.bloco{
+    display: inline-block;
+    position: absolute;
+    width: 417px;
+    height: 322px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 7px 8px 35px #f5c44e;
+    margin-top: 53px;
+    margin-left: -186px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}    
+
+/* estilização do input */
+
+.cadastro{
+    display: inline-block;
+    width: 264px;
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 75px;
+    border-radius: 30px;
+    border-color: #ff914d;
+    text-align: center;
+}    
+
+/* estilização do button */
+
+button{
+    display: inline-block;
+    width: 264px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 75px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    background-color: #ff914d;
+    box-shadow: 0px 5px 8px 0px #ff914d87;
+    border: none; 
+}
+
+/* estilização do button ao clicar */
+
+button:active{
+    color: white;
+    background-color: #f3b455;
+}
+
+/* estilização da imagem do celular */
+
+.celular{
+    position: absolute;
+    width: 213px;
+    margin-left: 285px;
+    margin-top: 0px;
+    height: 417px;
+    background-color: rgba(173, 173, 173, 0);
+
+}
+
+/* objetivo é aparecer do homem apontando e o bloco centralizado na tela do celular */
+
+@media screen and (max-width : 500px) {
+  .celular{
+      display: none;
+  }
+  
+ .bloco{    
+    margin-left: auto;
+ }
+
+
+}
+   
 .topbar{
     position: relative;
     background-color: #ff914d;
