@@ -7,112 +7,6 @@
     outline: none;
 }
 
-/* estilização do h2 */
-
-h2{
-    display: flex;
-    color: #ff914d;
-    margin-top: 67px;
-    margin-left: 41px;
-    flex-wrap: nowrap;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* estilização da imagem do homem apontando */
-
-img{
-    background-color: #e7a709;
-    margin-left: 0px;
-
-}   
-   
-/* estilização do plano de fundo */
-
-.inicio{
-    background-color: #f5c44e;
-    height: 417px;
-}
-
-
-
-/* estilização do bloco de cadasto */
-
-.bloco{
-    display: inline-block;
-    position: absolute;
-    width: 417px;
-    height: 322px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow: 0px 7px 8px 35px #f5c44e;
-    margin-top: 53px;
-    margin-left: -186px;
-    flex-wrap: nowrap;
-    overflow: hidden;
-}    
-
-/* estilização do input */
-
-.cadastro{
-    display: inline-block;
-    width: 264px;
-    height: 45px;
-    margin-top: 25px;
-    margin-left: 75px;
-    border-radius: 30px;
-    border-color: #ff914d;
-    text-align: center;
-}    
-
-/* estilização do button */
-
-button{
-    display: inline-block;
-    width: 264px;
-    height: 45px;
-    margin-top: 30px;
-    margin-left: 75px;
-    border-radius: 30px;
-    text-align: center;
-    color: white;
-    background-color: #ff914d;
-    box-shadow: 0px 5px 8px 0px #ff914d87;
-    border: none; 
-}
-
-/* estilização do button ao clicar */
-
-button:active{
-    color: white;
-    background-color: #f3b455;
-}
-
-/* estilização da imagem do celular */
-
-.celular{
-    position: absolute;
-    width: 213px;
-    margin-left: 285px;
-    margin-top: 0px;
-    height: 417px;
-    background-color: rgba(173, 173, 173, 0);
-
-}
-
-/* objetivo é aparecer do homem apontando e o bloco centralizado na tela do celular */
-
-@media screen and (max-width : 500px) {
-  .celular{
-      display: none;
-  }
-  
- .bloco{    
-    margin-left: auto;
- }
-
-
-}
-   
 .topbar{
     position: relative;
     background-color: #ff914d;
@@ -239,7 +133,6 @@ button:active{
 
 .informacao{
     width: 100%;
-    bottom: -194px;
     background-color: rgba(0, 0, 0, 0.876);
     position: relative;
     color: white;
@@ -289,14 +182,15 @@ ul{
 }
 
 .celular{
-    height: 400px;
+    height: 40vh;
+    width: 10vw;
     padding: 20px 70px;
 }
 
 .row{
     position: absolute;
     left: 66px;
-    bottom: 35px;
+    bottom: 10px;
     width: calc(100% - 110px);
     padding: 0px 381px;
     font-family: sans-serif;
@@ -312,9 +206,162 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 5px;
+    margin-top: 5px;   
+}
+
+/* ketryn fim */
+
+/* vitor inicio */
+.parte-um-registro{
+    display: flex;
+    color: #ff914d;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 51px;
+    /* margin-left: 41px; */
+    /* flex-wrap: nowrap; */
+    font-family: sans-serif;
+}
+
+/* estilização da imagem do homem apontando */
+
+.tela-sessao{
+    height: 388px;
+
+}   
+
+/* estilização do plano de fundo */
+
+.sessao{
+    background-color: #f5c44e;
+    display: inline-block;
+    /* display: block; */
+    width: 100%;
+    height: 388px;
+    /* background-color: #f5c44e;
+    width: 100%;
+    height: 375px; */
+}
+
+
+
+/* estilização do bloco de cadasto */
+
+.primeiro-bloco{
+    display: flex;
+    position: relative;
+    width: 416px;
+    height: 294px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 7px 8px 35px #f5c44e;
+    margin-top: -341px;
+    flex-direction: column;
+    margin-left: 455px;
+    /* flex-wrap: nowrap; */
+    overflow: hidden;
+}    
+
+/* estilização do input */
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 13px 39px;
+    width: 197px;
+    /* height: 85px; */
+    margin-top: 50px;
+    margin-left: 65px;
+    border-radius: 30px;
+    border-color: #ff914d;
+    text-align: center;
+}    
+
+/* estilização do button */
+
+.part-butao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 278px;
+    height: 47px;
+    margin-top: 33px;
+    margin-left: 70px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    background-color: #ff914d;
+    flex-direction: column;
+    box-shadow: 0px 5px 8px 0px #ff914d87;
+    border: none;
+}
+
+/* estilização do button ao clicar */
+
+.part-butao:active{
+    color: white;
+    background-color: #f3b455;
+    text-decoration: none;
+}
+
+/* estilização da imagem do celular */
+
+.celular-um{
+    position: relative;
+    display: flex;
+    width: 189px;
+    margin-left: 1006px;
+    margin-top: -326px;
+    height: 360px;
+    background-color: rgba(173, 173, 173, 0);
+
+}
+/* vitor fim */
+.produtos{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 15px 25px 40px 25px;
+    box-shadow: 0px 10px 19px 0px rgb(235 148 7 / 51%);
+    border-radius: 25px;
+}
+.produtos .item{
+    padding: 15px;
+}
+.produtos .item h2{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #ff914d;
     
 }
+.produtos .item p{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: dimgray;
+
+}
+.titulo-produto{
+    text-align: center;
+    margin-top: 25px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #ff914d;
+    position: relative;
+    display: initial;
+    left: calc(50% - 351px);
+    padding: 5px 15px;
+    top: 12px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.part-produto{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
 
 @media screen and (max-width: 700px) {
     .topbar .links .menu-flil{
@@ -333,8 +380,41 @@ hr{
     .celular{
         height: 200px;
         width: 100px;
-        padding: 20px 20px;
+        padding: 20px 20px; /* ketryn*/
+    }
+    .celular-um{
+        display: none;
+    }
+    .cadastro, .part-butao{
+        margin-left: 15px
+    }
+   .primeiro-bloco{    
+        width: 307px;
+        height: 309px;
+        margin-left: 34px;
+        margin-top: -356px;
+        box-shadow: none;
+   }
+   .parte-um-registro{
+       margin-left: 40px;
+   }
+   .sessao{
+        display: block;
+   }
+   .tela-sessao{
+       width: 100%;
+   }
+    img {
+        width: 36vh;
+    }
+    .produtos{
+        flex-direction: column;
+        
+    }
+    .titulo-produto{
+        left: 0;
+        display: block;
+        margin: 0px 45px 0px 45px;
+        margin-bottom: -7px;
     }
 }
-    
-
