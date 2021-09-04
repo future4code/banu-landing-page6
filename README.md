@@ -1,16 +1,20 @@
-#F4Bank
+# F4bank
+O menu a animação do menu, e pagina principal.
+A pagina completa do login.
+A pagina completa do cadastro.
+O footer a animação do footer, fiz edição da imagem dentro do celular.
+Usei javascript icones do instagram, twitter, youtube e facebook.
+Adicionei o favicon nas paginas.
+A imagem da logo está com link para o menu principal.
 
-O que funcionou?
-HTML- tags, adicionar imagens e titulos
-CSS- estilização do bloco, do button e imagens
+F4bank
 
-O que não funcionou?
-Creio que a Responsividade poderia ser melhor aplicada.
+O menu a animação do menu, e pagina principal desktop e mobile.
+A pagina completa do login desktop e mobile.
+A pagina completa do cadastro desktop e mobile.
+O footer a animação do footer, fiz edição da imagem dentro do celular desktop e mobile
+Usei javascript icones do instagram, twitter, youtube e facebook.
+Adicionei o favicon nas paginas.
+A imagem da logo está com link para o menu principal.
 
-
-Comentarios:
-Estive passando por um momento dificil ultimamente e sinto que não contribui de forma significativa no projeto, me limitando apenas a fazer algo simples. E na grande maioria a Ketryn e a Mylena me ajudaram bastante. 
-
-O grupo foi INCRIVELLLLLLLLLLLLLLL
-
-
+O que não funciona
